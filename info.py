@@ -5,13 +5,13 @@ id_pattern = re.compile(r'^.\d+$')
 
 
 
-BOT_TOKEN="6304284700:AAGAk1hLAsNCVQjaP2YvgzrK1LkbJfSva6k"
-API_ID=13216322
-API_HASH="15e5e632a8a0e52251ac8c3ccbe462c7"
-CHANNELS=-1002155910964
-DATABASE_URI="mongodb+srv://new-user31:Qwerty_1234@cluster0.rw7ydev.mongodb.net/"
-ADMINS=7170648639
-DATABASE_NAME="MOVIESXXX"
+BOT_TOKEN="6304284700:AAGAk1hK1LkbJfSva6k"
+API_ID22
+API_HASH="15e5e63a0e52251ac8c3ccbe462c7"
+CHANNELS=-55910964
+DATABASE_URI="msrv//new-user31:Qwertuster0.rw7ydev.mongodb.net/"
+ADMINS=7170
+DATABASE_NAME="MOVIE"
 
 
 
@@ -35,8 +35,8 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else auth_channel"""
 
-AUTH_USERS=7170648639
-AUTH_CHANNEL=-1002155910964
+AUTH_USERS=7639
+AUTH_CHANNEL=-100964
 
 # MongoDB information
 """DATABASE_URI = environ['DATABASE_URI']
