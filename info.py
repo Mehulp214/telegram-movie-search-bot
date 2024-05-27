@@ -36,6 +36,7 @@ auth_channel = environ.get('AUTH_CHANNEL')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else auth_channel"""
 
 AUTH_USERS=7170648639
+AUTH_CHANNEL=-1002155910964
 
 # MongoDB information
 """DATABASE_URI = environ['DATABASE_URI']
